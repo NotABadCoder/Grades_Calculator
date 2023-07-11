@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF"/> <!-- This should be the same color as your circle -->
+            <corners android:radius="100dp"/> <!-- This should be the same radius as your circle -->
+        </shape>
+    </item>
+    <item android:drawable="@drawable/circle_no_border"/>
+    <item android:left="1dp"
+        android:drawable="@drawable/left_border"/>
+</layer-list>
